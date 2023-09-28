@@ -1,0 +1,40 @@
+.left{
+    border: 0.5px none rgb(192, 185, 185);
+    text-align: center;
+
+}
+.fb{
+    color: rgb(55, 118, 214);
+    font-size: 46px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.ph1{
+    font-size: 16px;
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.right{
+    border: 0.5px solid rgb(192, 185, 185);
+    padding: 20px 8px;
+    width: 385px;
+    border-radius: 12px;
+    margin: 20px auto;
+}
+.btn{
+    background-color: rgb(55, 118, 214);
+    color: aliceblue;
+    border: none;
+    border-radius: 12px;
+    width: 100%;
+    padding: 10px;
+    margin: 5px auto;
+}
+input{
+    border: 1px solid gray;
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    margin: 5px auto;
+    box-sizing: border-box;
+}

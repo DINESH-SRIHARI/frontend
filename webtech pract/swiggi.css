@@ -1,0 +1,83 @@
+body{
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.first{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.fleft{
+    border: 0.1px solid white;
+    width: 65%;
+    margin: 0px 80px;
+}
+.limg{
+    width: 100%;
+    height: 70%;
+}
+.fltop{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 25px;
+}
+.sinup{
+    color: aliceblue;
+    background-color: black;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    margin: 20px;
+
+}
+.login{
+    color: black;
+    text-decoration: none;
+}
+.heading{
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(54, 53, 53);
+}
+.para{
+    font-size: 30px;
+    color: gray;
+    font-weight: 400;
+}
+.search{
+    position: relative;
+    display: flex;
+
+}
+.entdelloc{
+    margin: 0px 40px 5px 5px;
+    width: 80%;
+    padding: 20px 6px;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-color: #fc8019;;
+}
+.serrit{
+    position: absolute;
+    right: 0;
+    margin: 20px 0px;
+}
+.locate{
+    color: gray;
+    font-size: 14px;
+    text-decoration: none;
+}
+.fndfod{
+    background-color: #fc8019;;
+    border-radius: 6px;
+    border: none;
+    color: aliceblue;
+    font-weight: 800;
+    width: 30%;
+    font-size: 16px;
+    padding: 5px 12px;
+}
+.frit{
+    width: 900px;
+    height: 900px;
+}

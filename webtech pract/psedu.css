@@ -1,0 +1,31 @@
+/* psedo elements
+1.first line
+2.first letter
+3.before
+4.markup
+5.after
+6.selection
+*/
+h1{
+    margin:100px;
+    text-align: center;
+    font-size: 100px;
+}
+h1::first-letter{
+    color: blue;
+    font-size: 150px;
+}
+h1::first-line{
+    color: yellow;
+}
+h1::selection{
+    color: aliceblue;
+    background-color: blue;
+}
+.box{
+    border: 1px solid none;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    align-content: auto;
+}

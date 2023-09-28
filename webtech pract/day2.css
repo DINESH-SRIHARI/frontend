@@ -1,0 +1,83 @@
+/* positions -sticky absolute fixed relative */
+body{
+    background-color: black;
+}
+.card{
+    border: 1px solid gray;
+    border-radius: 12px;
+    margin: 9px auto;
+    padding: 5px;
+    width: 700px;
+    color: aliceblue;
+}
+.cardimg{
+    border-radius: 12px;
+    height: 300px;
+    width: 100%;
+}
+.add{
+    border: 1px solid grey;
+    border-radius: 12px;
+    width: 200px;
+    margin: 5px 12px;
+    position: sticky;
+    top: 0;
+}
+.imgad{
+    border-radius: 12px;
+    padding: 4px;
+   
+    width: 100%;
+    /* box-sizing: border-box; */
+}
+.btn{
+    background-color: blueviolet;
+    border: none;
+    border-radius: 3px;
+    padding: 12px;
+    color: aliceblue;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 24px;
+}
+.out{
+    position: relative;
+}
+.inside{
+    position: absolute;
+    top: 0;
+    border: 0.5px solid white;
+    color: black;
+    border-radius: 5px;
+    background-color: aliceblue;
+    margin: 4px 4px;
+}
+.people{
+    position: relative;
+    border: 1px solid grey;
+    width: 400px;
+    margin: 12px auto;
+   
+
+}
+.in{
+    position: absolute;
+    color: aliceblue;
+    top: 0;
+}
+.group{
+    width: 100%;
+}
+.dec{
+    margin: 120px 1px 0px 1px;
+    color: white;
+}
+.tbtn{
+    border: none;
+    background-color: blueviolet;
+    color: beige;
+    padding: 5px 4px;
+    border-radius: 6px;
+    margin: 6px 170px;
+}
